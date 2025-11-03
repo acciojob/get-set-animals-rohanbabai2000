@@ -15,7 +15,7 @@ class Dog extends Animal {
 	constructor(species){
 		super(species);
 	}
-	purr(){
+	bark(){
 	console.log("woof");
 	}
 }
