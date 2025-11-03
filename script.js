@@ -15,10 +15,11 @@ class Dog extends Animal {
 	constructor(species){
 		super(species);
 	}
-}
-purr(){
+	purr(){
 	console.log("woof");
+	}
 }
+
 
 class Cat extends Animal {
 	constructor(species){
@@ -26,6 +27,7 @@ class Cat extends Animal {
 	}
 	purr(){
 	console.log("purr");
+	}
 }
 
 
