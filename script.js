@@ -24,10 +24,10 @@ class Cat extends Animal {
 	constructor(species){
 		super(species);
 	}
-}
-purr(){
+	purr(){
 	console.log("purr");
 }
+
 
 // Do not change the code below this line
 window.Animal = Animal;
